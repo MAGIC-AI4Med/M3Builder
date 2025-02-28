@@ -1,0 +1,13 @@
+// [This Line is Comment] train.json: should be a list of dictionaries, where each dictionary has 3 keys: "image_path", "findings", "impressions"
+[
+    {
+        "image_path": "path/to/imagen", 
+        "findings": "findings of the imagen", // should be a str that corresponds to findings part of imagen. If empty, fill an empty str
+        "impression": "impressions of the imagen" // should be a str that corresponds to findings part. If empty, fill an empty str
+    },
+    {
+        "image_path": "path/to/imagem", 
+        "findings": "findings of the imagem", // should be a str that corresponds to findings part of imagem. If empty, fill an empty str
+        "impression": "impressions of the imagem" // should be a str that corresponds to findings part. If empty, fill an empty str
+    }
+]

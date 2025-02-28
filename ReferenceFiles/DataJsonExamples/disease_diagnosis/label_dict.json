@@ -1,0 +1,5 @@
+// [This Line is Comment] label_dict.json: This should be a dictionary where each key is a label and the corresponding value is a numerical identifier (starting from 0) that can be used for training.
+{
+    "Alzheimer": 0,
+    "brain tumor": 1
+}    

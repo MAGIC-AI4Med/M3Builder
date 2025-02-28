@@ -1,0 +1,72 @@
+[
+    {
+        "dataset name": "ADNI",
+        "dataset description": "ADNI is a 3D MRI Head & Neck disease diagnosis dataset that contains 1 subfolder and 1 csv file. the subfolder(named ADNI_PT) contains images(in .pt format), while the csv file contains lines of sample info, where you should focus mainly on 2 columns: 'Image Data ID' and 'Group'(which is the class label). Remember, only samples with these labels should be used: ['AD','MCI','CN']! And you should use at most 1000 samples for training and 200 for testing. keep classes balanced!",
+        "dataset path": "path/to/ExternalDataset/ADNI_Dataset"
+    },
+    {
+        "dataset name": "KneeMRI",
+        "dataset description": "KneeMRI is a 2D MRI limb disease diagnosis dataset that contains 1 subfolder and 1 csv file. the subfolder1 contains images(in .pck format), while the csv file contains lines of sample info, where you must focus mainly on 2 colomns: 'volumeFilename' and 'aclDiagnosis'(which is the class label, could be 0 or 1 or 2). And you should use at most 1000 samples for training and 200 for testing. keep classes balanced!",
+        "dataset path": "path/to/ExternalDataset/KneeMRI"
+    },
+    {
+        "dataset name": "CC-CCII",
+        "dataset description": "CC-CCII is a 3D CT Chest disease diagnosis dataset that contains 3 sub-folders, representing 3 disease classes, and the name of the subfolders are the class labels. Every sub-folder has more sub-sub-folders, containing images of the corresponding class. And you should use at most 1000 samples for training and 200 for testing. keep classes balanced!",
+        "dataset path": "path/to/ExternalDataset/CC-CCII"
+    },
+    {
+        "dataset name": "CT-kidney",
+        "dataset description": "CT-kidney is a 2D CT abdomen disease diagnosis dataset that contains four subfolders, with each folder representing a specific disease. Each folder contains images.",
+        "dataset_path": "path/to/ExternalDataset/CT-KIDNEY"
+    },
+    {
+        "dataset name": "COVID19",
+        "dataset description": "COVID19 is a 3D Chest CT anomaly segmentation dataset that contains 2 subfolders - namely images and segmentation_masks - containing nii.gz format images and corresponding anomalies masks, and 1 json file: labels.json, containing an ordered label list (please do get a complete label_list from it !)",
+        "dataset path": "path/to/ExternalDataset/COVID19"
+    },
+    {
+        "dataset name": "Instance22",
+        "dataset description": "Instance22 is a 3D Head & Neck CT anomaly segmentation dataset that contains 2 subfolders - namely images and masks - containing nii.gz format images and corresponding anomalies masks. And 1 json file: labels.json, containing an ordered label list (please do get a complete label_list from it !)",
+        "dataset path": "path/to/ExternalDataset/Instance22"
+    },
+    {
+        "dataset name": "MSD_Pancreas",
+        "dataset description": "MSD_Pancreas is a 3D Abdomen CT anomaly segmentation dataset that contains 2 subfolders - namely images and masks - containing nii.gz format images and corresponding anomalies masks. And 1 json file: labels.json, containing an ordered label list containing 2 labels (please do get a complete label_list from it!)",
+        "dataset path": "path/to/ExternalDataset/MSD_Pancreas"
+    },
+    {
+        "dataset name": "ChestX-Det10",
+        "dataset description": "ChestX-Det10 is a 2D Chest X-ray anomaly segmentation dataset that contains 2 subfolders - namely images and masks - containing png format images and corresponding anamalies masks. And 1 json file: labels.json, containing an ordered label list (please do get a complete label_list from it !). And you should use at most 80 samples for training and 20 for testing.",
+        "dataset path": "path/to/ExternalDataset/ChestX-Det10-Dataset"
+    },
+    {
+        "dataset name": "CT-RATE",
+        "dataset description": "CT-RATE is a 3D Chest CT report generation dataset that contains 1 subfolder and 2 json files. the subfolder contains sub-subfolders representing different cases, and these further has sub-sub-subfolders. But do not worry, the 2 json files contains all case info you need for train and test splits respectively. Each json file contains a list of dictionaries, where each dictionary has 3 entries:'image_path', 'finding', 'impression'.",
+        "dataset path": "path/to/ExternalDataset/CT-RATE"
+    },
+    {
+        "dataset name": "BrainGnome",
+        "dataset description": "BrainGnome is a 3D head & neck MRI report generation dataset that contains 1 subfolder: images - containing nii.gz format images. And 2 json file: reports_train.json and reports_test.json, both containing a list of dictionaries, where each dictionary has 3 entries:'image_path', 'finding', 'impression'.",
+        "dataset path": "path/to/ExternalDataset/BrainGnome"
+    },
+    {
+        "dataset name": "IU-Xray",
+        "dataset description": "IU-Xray is a 2D X-ray Chest report generation dataset that contains 1 csv file and 1 subfolder, the subfolder contains images, and the csv file contains lines of sample infomation(image ID, findings, impressions..)",
+        "dataset_path": "path/to/ExternalDataset/IU_Xray"
+    },
+    {
+        "dataset name": "BTCV",
+        "dataset description":"BTCV is a 3D Abdomen CT organ segmentation dataset that contains 2 subfolders - namely Training and Testing, and 1 json file - containing an ordered label list (please do get a complete label_list from it), each subfolder contains 2 subfolders, img and label (Testing does not have 'label' dir), respectively containg images and corresponding segmentation masks",
+        "dataset_path": "path/to/ExternalDataset/BTCV"
+    },
+    {
+        "dataset name": "VerSe",
+        "dataset description":"VerSe is a 3D Spine CT organ segmentation dataset that contains 2 subfolders - namely images and masks - containing nii.gz format images and corresponding organ masks, and 1 json file: labels.json, containing an ordered label list (please do get a complete label_list from it).",
+        "dataset path": "path/to/ExternalDataset/VerSe"
+    },
+    {
+        "dataset name": "OASIS",
+        "dataset description":"OASIS is a 3D Head & Neck MRI organ segmentation dataset that contains 2 subfolders - namely images and masks - containing nii.gz format images and corresponding organ masks, and 1 json file: labels.json, containing an ordered label list (please do get a complete label_list from it).",
+        "dataset path": "path/to/ExternalDataset/OASIS"
+    }
+]

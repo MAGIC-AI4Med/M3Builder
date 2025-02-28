@@ -1,0 +1,5 @@
+// [This Line is Comment] test.json: should be dictionaries where each key is an image data file path (or, in some cases, a collection of image paths for 3D data composed of 2D images) and each value is a list containing its corresponding labels. Even for single-label datasets, the label should be in a list.
+{
+    "absolutepath/to/imagem": ["brain tumor"], // Notice that the list should contain the label name(str). not the label index!
+    "absolutepath/to/imagen": ["Alzheimer", "brain Tumor"]
+}

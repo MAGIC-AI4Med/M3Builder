@@ -1,0 +1,13 @@
+// [This Line is Comment] test.json: should be a list of dictionaries, where each dictionary MUST have 3 keys: "image_path", "label_path", "labels"
+[
+    {
+        "image_path": "path/to/imagen", 
+        "label_path": "path/to/corresponding mask of imagen", // if no label is found, fill the value with an empty str!
+        "labels": ["spleen","right kidney","left kidney", ...] // must be a list of str, containing all the labels. You have to fill in all the labels! Order between labels must be consistent all the time!
+    },
+    {
+        "image_path": "path/to/imagem", 
+        "label_path": "path/to/corresponding mask of imagem", // if no label is found, fill the value with an empty str!
+        "labels": ["spleen","right kidney","left kidney", ...] // must be a list of str, containing all the labels. You have to fill in all the labels! Order between labels must be consistent all the time!
+    }
+]
