@@ -15,10 +15,7 @@ Overview of our system **M3Builder**. From user’s free-text request to model d
 ## Setup
 
 ### Enviroment
-To install the python environments:
-```
-pip install -r requirements.txt
-```
+We provide `requirements.txt` as a reference, the versions of packages are not compulsory.
 
 ### Data Preparation
 
